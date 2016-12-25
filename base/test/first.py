@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #环境变量配置，利用python解析器执行
 
+#模块引入,会自动生成pyc文件（字节码文件），会加快加载速度
 import test
 
 def hello():

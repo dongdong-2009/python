@@ -9,9 +9,13 @@
 		1.2：pyc
 			字节码文件，提高加载速度，被其它文件引用
 			python -m py_compile first.py
+			字节码文件可以通过python xxx.pyc执行（python可以识别）
+			不能./执行（bash shell解析器无法识别）
 		1.3：pyo
 			优化编译字节码文件 -O选项生成
 			python -O -m py_compile first.py
+			也可以使用python解析器执行
+			不能通过shell命令行./xxx.pyo执行
 
 	2、python源码文件到可执行文件过程
 		1、python源码文件通过python解析器--->python字节码文件
