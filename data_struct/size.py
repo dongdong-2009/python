@@ -15,3 +15,9 @@ if(__name__ == "__main__"):
 	print("bool :",sys.getsizeof(e))
 	print("2^3 =",2**3)	#python指数
 	#print("int_max :",sys.maxfloat) #会报错
+	print("hex(10) =",hex(10))
+	print("sys.version = ",sys.version)
+	print("sys.hexversion = ",sys.hexversion)
+	print("sys.float_info =",sys.float_info)
+	print("type(10):",type(10))
+	print("type(10+10j):",type(10+10j))
