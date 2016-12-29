@@ -21,3 +21,41 @@
 运算符：
 	/：普通除，会有精度
 	//：地板除，只保留整数部分
+
+移位操作：
+	正数移位，缺的位补0
+	负数移位，缺的位补1
+
+位运算优先级：
+	取反运算符 > 左移运算符 > 右移运算符 > 按位与运算 > 按位异或运算 > 按位或运算
+
+标准函数
+	abs(x)		求x的绝对值
+	cmp(x,y)
+				x < y :return -1
+				x == y : return 0
+				x > y : return 1
+	max(x,y,z...):返回最大值
+	min(x,y,z...):返回最小值
+
+随机数：
+import random
+	random.random()：用于生成0到1的随机浮点数
+	random.uniform():用于生成一个指定范围内的随机浮点数
+	random.randint(a,b):用于生成一个指定范围内的整数
+	random.randrange(0,101,2)：从指定范围内，在指定基数递增的集合中获取一个随机数
+	random.choice(sequence)：从序列中获取一个随元素
+	random.shuffle([]),用于将一个列表中的元素打乱
+		list(items)：打印列表
+	random.sample(sequence,k):从指定序列中随机获取指定长度的片断
+
+
+
+
+
+
+
+
+
+
+
