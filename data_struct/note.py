@@ -49,13 +49,3 @@ import random
 		list(items)：打印列表
 	random.sample(sequence,k):从指定序列中随机获取指定长度的片断
 
-
-
-
-
-
-
-
-
-
-

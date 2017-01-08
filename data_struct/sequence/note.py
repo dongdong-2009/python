@@ -105,3 +105,33 @@
 		l.pop(i)			弹出并删除位置为i的元素
 		l.sort()			列表排序
 
+元组：
+	元组是不可变的序列，元组由不同的元素组成，每隔元素可以存储不同类型的数据，元组通常代表一行数据，而元组中的元素则代表不同的数据项，一旦创建后则不能修改长度
+	元组的创建：
+		tuple1 = ('what','is','python')
+		tuple1 = tuple("abc")
+		tuple1 = ()
+		tuple1 = ("abc",)
+		tuple1 = 'a','b','c'
+		tuple1 = tuple(range(10))
+	访问：
+		print(tuple1[0])
+		print(tuple1[0:2])
+		print(tuple1[0:4:2])
+	元组的操作函数：
+		t1 + t2
+		t1*N
+		t1 > t2
+		len(t1)
+		sum(t1)
+		max(t1)
+		min(t1)
+
+
+
+
+
+
+
+
+
