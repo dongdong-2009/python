@@ -5,4 +5,4 @@ def test_func():
 if __name__ == "__main__":
 	print("call test")
 else:
-	print("\n__name__ = "+__name__+"test module is refed\n")
+	print("\n__name__ = "+__name__+",test module is refed\n")
