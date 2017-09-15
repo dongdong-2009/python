@@ -16,5 +16,13 @@ def triangel(n):
 
 if __name__ == '__main__':
 	a = triangel(10)
+#	cnt = 0
 	for i in a:
 		print(i)
+'''
+		s = 0
+		cnt = cnt +1
+		while s < 10 - cnt:
+			s = s + 1
+			print(" ")
+'''

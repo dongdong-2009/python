@@ -9,6 +9,8 @@ def list_count(_list):
 		if(isinstance(i,list)):
 			print(i)
 			count += len(i)
+		else:
+			print(i+" is not list")
 	return count
 
 if(__name__ == "__main__"):
