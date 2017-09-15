@@ -2,7 +2,7 @@
 
 '''
 一个类想要实现for...in循环，类似list和tuple，就必须要实现一个__iter__方法，该方法返回一个迭代对象
-然后python的for循环就会不断调用该迭代对象的__next__方法拿到循环的下一个值，知道遇到StopIteration错误时退出循环
+然后python的for循环就会不断调用该迭代对象的__next__方法拿到循环的下一个值，直到遇到StopIteration错误时退出循环
 实现案例：翡波那契数列
 '''
 
