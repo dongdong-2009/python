@@ -5,8 +5,7 @@ import itchat
 @itchat.msg_register(itchat.content.TEXT)
 def text_reply(msg):
     # 返回同样的文本消息
-    #return msg['Text']
-    return "aaaaa"
+    return msg['Text']
 
 
 itchat.auto_login()
