@@ -5,6 +5,7 @@ import itchat
 @itchat.msg_register(itchat.content.TEXT)
 def text_reply(msg):
     # 返回同样的文本消息
+    print(msg['Text'])
     return msg['Text']
 
 

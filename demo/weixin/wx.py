@@ -2,7 +2,8 @@ import requests
 import sys,re,time,itchat,os
 from itchat.content import *
 
-KEY = '8edce3ce905a4c1dbb965e6b35c3834d'  # 这个key可以直接拿来用
+#KEY = '8edce3ce905a4c1dbb965e6b35c3834d'  # 这个key可以直接拿来用
+KEY = "7c1ccc2786df4e1685dda9f7a98c4ec9"
 
 
 # 向api发送请求
