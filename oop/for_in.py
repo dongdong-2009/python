@@ -28,15 +28,20 @@ class Fib(object):
 		return self.a
 
 if(__name__ == "__main__"):
+	#f = Fib();
+	#print(f)
+
+
 	for n in Fib():
 		time.sleep(0.1)
 		if(n == 'err'):
 			print("=========end===========")
 			break;
 		print(n)
+
 	'''
 	fib = Fib()
 	while True:
 		time.sleep(0.1)
 		print(fib.__next__())
-'''
+	'''
