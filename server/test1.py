@@ -4,8 +4,8 @@ import socket
 import time
 
 if(__name__ == "__main__"):
-	port = 1234
-	address = ('192.168.132.128',port)
+	port = 8000
+	address = ('192.168.100.158',port)
 
 	listen_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 	#listen_socket.setsockopt(socket.SOL_SOCKET,SO_REUSEADDR,1)
@@ -24,6 +24,7 @@ if(__name__ == "__main__"):
 	while True:
 		client_connection,client_address = listen_socket.accept()
 		request = client_connection.recv(2048)
+		#print(request)
 		res = request.split("\r\n")[0].split(" ")[1].split('/')[1]
 		if res == "add":
 			str = 'HTTP/1.1 200 OK\r\n\r\n<html><body>add</body></html>'
